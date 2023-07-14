@@ -1,6 +1,6 @@
     /*inicio Equipo*/
 
-    .sectionEquipo{
+    .sectionEquipo {
         width: 100%;
         height: auto;
         display: grid;
@@ -8,56 +8,57 @@
         grid-template-rows: repeat(1, 1fr);
         justify-content: center;
     }
-    
-    .caja{
+
+    .caja {
         border: rgba(92, 90, 90, 0.7) solid 1px;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .caja1{
+
+    .caja1 {
         padding: 20px;
     }
-    
-    .caja2{
+
+    .caja2 {
         padding: 20px;
     }
-    
+
     @media only screen and (min-width:300px) {
-    
+
         .sectionEquipo {
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
-    
+
         .caja1 {
             grid-column: 1/2;
             grid-row: 1/2;
         }
-    
+
         .caja2 {
             grid-column: 1/2;
-            grid-row: 2/3;            
+            grid-row: 2/3;
         }
     }
-    
-        @media only screen and (min-width:790px) {
-    
-            .sectionEquipo {
-                grid-template-columns: repeat(2, 1fr);
-                grid-template-rows: repeat(1, 1fr);
-            }
-        
-            .caja1 {
-                grid-column: 1/2;
-                grid-row: 1/2;
-            }
-        
-            .caja2 {
-                grid-column: 2/3;
-                grid-row: 1/2;            
-            }
+
+    @media only screen and (min-width:790px) {
+
+        .sectionEquipo {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
         }
-    
+
+        .caja1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .caja2 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+    }
+
     .tituloCaja1 {
         width: 60%;
         padding: 15px;
@@ -68,14 +69,14 @@
         font-family: 'Playfair Display', serif;
         text-align: left;
     }
-    
+
     .caja1 p {
         font-size: 18px;
         padding: 20px;
         text-align: left;
         text-transform: none;
     }
-    
+
     .tituloCaja2 {
         width: 60%;
         padding: 15px;
@@ -86,257 +87,261 @@
         font-family: 'Playfair Display', serif;
         text-align: left;
     }
+
     /* fin Equipo*/
 
     /* inicio Historias */
-.section2 {
-    height: 700px;
-    width: 100%;
-    background-color: $color2;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
+    .section2 {
+        height: 700px;
+        width: 100%;
+        background-color: $color2;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
 
-.section2 {
-    text-align: center;
-    background-color: $color2;
-    color: #5c5a5a;
-    padding: 20px;
-}
-
-.galeria {
-    width: 100%;
-    min-height: 600px;
-    ;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    padding: 20px;
-    grid-gap: 20px;
-}
-
-
-.item {
-    border: 2px solid $color2;
-    background-image: url(imag/dosgatos.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-}
-
-
-.item1 {
-    background-image: url(imag/dosgatos.jpg);
-}
-
-.item2 {
-    background-image: url(imag/perroblanco.jpg);
-}
-
-.item3 {
-    background-image: url(imag/gatoblancoynegro.jpg);
-}
-
-.item4 {
-    background-image: url(imag/perro.jpg);
-}
-
-.item5 {
-    background-image: url(imag/gatito.jpg);
-}
-
-.item6 {
-    background-image: url(imag/inicioperros.png);
-}
-
-@media only screen and (min-width:300px) {
+    .section2 {
+        text-align: center;
+        background-color: $color2;
+        color: #5c5a5a;
+        padding: 20px;
+    }
 
     .galeria {
+        width: 100%;
+        min-height: 600px;
+        ;
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
+        padding: 20px;
+        grid-gap: 20px;
     }
 
+
+    .item {
+        border: 2px solid $color2;
+        background-image: url(imag/dosgatos.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+
+
     .item1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
+        background-image: url(imag/dosgatos.jpg);
     }
 
     .item2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
         background-image: url(imag/perroblanco.jpg);
     }
 
     .item3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
         background-image: url(imag/gatoblancoynegro.jpg);
     }
 
     .item4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
         background-image: url(imag/perro.jpg);
     }
 
     .item5 {
-        grid-column: 1/2;
-        grid-row: 5/6;
         background-image: url(imag/gatito.jpg);
     }
 
     .item6 {
-        grid-column: 1/2;
-        grid-row: 6/7;
         background-image: url(imag/inicioperros.png);
     }
-}
 
-@media only screen and (min-width:400px) {
+    @media only screen and (min-width:300px) {
 
-    .galeria {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        .galeria {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        .item1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .item2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(imag/perroblanco.jpg);
+        }
+
+        .item3 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            background-image: url(imag/gatoblancoynegro.jpg);
+        }
+
+        .item4 {
+            grid-column: 1/2;
+            grid-row: 4/5;
+            background-image: url(imag/perro.jpg);
+        }
+
+        .item5 {
+            grid-column: 1/2;
+            grid-row: 5/6;
+            background-image: url(imag/gatito.jpg);
+        }
+
+        .item6 {
+            grid-column: 1/2;
+            grid-row: 6/7;
+            background-image: url(imag/inicioperros.png);
+        }
     }
 
-    .item1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
+    @media only screen and (min-width:400px) {
+
+        .galeria {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+
+        .item1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .item2 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            background-image: url(imag/perroblanco.jpg);
+        }
+
+        .item3 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(imag/gatoblancoynegro.jpg);
+        }
+
+        .item4 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-image: url(imag/perro.jpg);
+        }
+
+        .item5 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            background-image: url(imag/gatito.jpg);
+        }
+
+        .item6 {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            background-image: url(imag/inicioperros.png);
+        }
     }
 
-    .item2 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        background-image: url(imag/perroblanco.jpg);
+
+    @media only screen and (min-width:750px) {
+
+        .galeria {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .item1 {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        .item2 {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            background-image: url(imag/perroblanco.jpg);
+        }
+
+        .item3 {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            background-image: url(imag/gatoblancoynegro.jpg);
+        }
+
+        .item4 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-image: url(imag/perro.jpg);
+        }
+
+        .item5 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-image: url(imag/gatito.jpg);
+        }
+
+        .item6 {
+            grid-column: 3/5;
+            grid-row: 2/3;
+            background-image: url(imag/inicioperros.png);
+        }
     }
 
-    .item3 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        background-image: url(imag/gatoblancoynegro.jpg);
-    }
+    /*fin Historias */
 
-    .item4 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        background-image: url(imag/perro.jpg);
-    }
-
-    .item5 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background-image: url(imag/gatito.jpg);
-    }
-
-    .item6 {
-        grid-column: 2/3;
-        grid-row: 3/4;
-        background-image: url(imag/inicioperros.png);
-    }
-}
-
-
-@media only screen and (min-width:750px) {
-
-    .galeria {
-        grid-template-columns: repeat(4, 1fr);
+    /*inicio tablas se parte*/
+    .contenedor {
+        width: 100%;
+        height: 1100px;
+        border: rgba(144, 196, 196, 0.7) solid 1px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
 
-    .item1 {
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-
-    .item2 {
-        grid-column: 3/4;
-        grid-row: 1/2;
-        background-image: url(imag/perroblanco.jpg);
-    }
-
-    .item3 {
-        grid-column: 4/5;
-        grid-row: 1/2;
-        background-image: url(imag/gatoblancoynegro.jpg);
-    }
-
-    .item4 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        background-image: url(imag/perro.jpg);
-    }
-
-    .item5 {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        background-image: url(imag/gatito.jpg);
-    }
-
-    .item6 {
-        grid-column: 3/5;
-        grid-row: 2/3;
-        background-image: url(imag/inicioperros.png);
-    }
-}
-/*fin Historias */
-
-/*inicio tablas se parte*/
-.contenedor{
-    width: 100%;
-    height: 700px;
-    border: #5c9090 solid 1px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.class{
-    border: #5c5a5a solid 1px;
-}
-.class1{
-    padding: 20px;
-}
-
-.class2{
-    padding: 20px;
-}
-
-.class3{
-    padding: 20px;
-}
-
-.class4{
-    padding: 20px;
-}
-
-@media only screen and (min-width:300px) {
-
-    .contenedor {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+    .class {
+        border: rgba(166, 172, 172, 0.7) solid 1px;
     }
 
     .class1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
+        padding: 20px;
     }
 
     .class2 {
-        grid-column: 1/2;
-        grid-row: 2/3;            
+        padding: 20px;
     }
 
     .class3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
+        padding: 20px;
     }
 
     .class4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
+        padding: 20px;
     }
-}
+
+    @media only screen and (min-width:300px) {
+
+        .contenedor {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+        .class1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .class2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .class3 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+        .class4 {
+            grid-column: 1/2;
+            grid-row: 4/5;
+            height: 400px;
+        }
+    }
 
     @media only screen and (min-width:520px) {
 
@@ -344,110 +349,114 @@
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
-    
+
         .class1 {
             grid-column: 1/2;
             grid-row: 1/2;
         }
-    
+
         .class2 {
             grid-column: 2/3;
-            grid-row: 1/2;            
+            grid-row: 1/2;
         }
-    
+
         .class3 {
             grid-column: 1/2;
             grid-row: 2/3;
         }
-    
+
         .class4 {
             grid-column: 2/3;
             grid-row: 2/3;
         }
     }
+
     @media only screen and (min-width:750px) {
 
         .contenedor {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
-    
+
         .class1 {
             grid-column: 1/2;
             grid-row: 1/2;
         }
-    
+
         .class2 {
             grid-column: 2/3;
             grid-row: 1/2;
         }
-    
+
         .class3 {
             grid-column: 3/4;
             grid-row: 1/2;
         }
-    
+
         .class4 {
             grid-column: 1/4;
             grid-row: 2/3;
         }
     }
-/* fin tablas se parte */
 
-/*inicio boton se parte*/
-.botonSeparte a {
-    text-decoration: none;
-    background-color: #5c9090;
-    color: #fff;
-    padding: 10px 20px;
-    margin-top: 45px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-/*fin boton se parte*/
+    /* fin tablas se parte */
 
-/* inicio contacto */
-.contenedorContacto{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    justify-content: center;
-}
+    /*inicio boton se parte*/
+    .botonSeparte a {
+        text-decoration: none;
+        background-color: #5c9090;
+        color: $color3;
+        padding: 10px 20px;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 
-.box{
-    border: rgba(92, 90, 90, 0.7) solid 1px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.box1{
-    padding: 20px;
-}
+    /*fin boton se parte*/
 
-.box2{
-    padding: 20px;
-}
-
-@media only screen and (min-width:300px) {
-
+    /* inicio contacto */
     .contenedorContacto {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .box {
+        border: rgba(92, 90, 90, 0.7) solid 1px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .box1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
+        padding: 20px;
     }
 
     .box2 {
-        grid-column: 1/2;
-        grid-row: 2/3;            
+        padding: 20px;
     }
-}
+
+    @media only screen and (min-width:300px) {
+
+        .contenedorContacto {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .box1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .box2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    }
 
     @media only screen and (min-width:790px) {
 
@@ -455,15 +464,16 @@
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(1, 1fr);
         }
-    
+
         .box1 {
             grid-column: 1/2;
             grid-row: 1/2;
         }
-    
+
         .box2 {
             grid-column: 2/3;
-            grid-row: 1/2;            
+            grid-row: 1/2;
         }
     }
-/* fin contacto */
+
+    /* fin contacto */
