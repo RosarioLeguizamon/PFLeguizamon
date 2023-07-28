@@ -46,11 +46,11 @@ body {
 /*Footer*/
 footer {
   width: 100%;
-  height: 125px;
+  height: 120px;
   background-color: #edcabd;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
@@ -59,14 +59,14 @@ footer {
   bottom: 0;*/
 }
 
-footer p {
-  margin-bottom: 20px;
+footer h4 {
+  margin-bottom: 15px;
   color: #5c9090;
 }
 
 footer i {
   color: #5c9090;
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 2px;
   margin-top: 10px;
 }
@@ -158,6 +158,10 @@ footer i {
   font-size: 18px;
   padding: 20px;
   text-align: left;
+  text-decoration: none;
+}
+
+strong {
   text-transform: none;
 }
 
@@ -359,20 +363,24 @@ footer i {
   text-align: center;
 }
 
+.class h3 {
+  padding: 15px;
+}
+
 .class1 {
-  padding: 20px;
+  padding: 1%;
 }
 
 .class2 {
-  padding: 20px;
+  padding: 10px;
 }
 
 .class3 {
-  padding: 20px;
+  padding: 10px;
 }
 
 .class4 {
-  padding: 20px;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 300px) {
