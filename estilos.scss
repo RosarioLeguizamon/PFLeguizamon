@@ -9,6 +9,9 @@
 $color1: #5c9090;
 $color2: #D2DAE9;
 $color3: #fff;
+$colorbordes:rgba(166, 172, 172, 0.7);
+$font1: 'Playfair Display', serif;
+$font2: Verdana, Geneva, Tahoma, sans-serif;
 
 
 .navbar {
@@ -39,7 +42,7 @@ body {
 
 .jumbotron h1 {
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: $font1;
     font-size: 65px;
 
 }
@@ -62,11 +65,11 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font2;
     justify-content: center;
     margin-top: auto;
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
 }
 
 footer p {

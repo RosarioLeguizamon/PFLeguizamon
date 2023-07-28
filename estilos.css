@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -54,6 +55,8 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
   margin-top: auto;
+  /*position: fixed;
+  bottom: 0;*/
 }
 
 footer p {
@@ -82,6 +85,12 @@ footer i {
 }
 
 /*Fin footer*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*inicio Equipo*/
 .sectionEquipo {
   width: 100%;
@@ -93,7 +102,7 @@ footer i {
 }
 
 .caja {
-  border: rgba(92, 90, 90, 0.7) solid 1px;
+  border: rgba(166, 172, 172, 0.7) solid 1px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -329,11 +338,17 @@ footer i {
   }
 }
 /*fin Historias */
+/*Inicio se parte*/
+.iconos {
+  color: #5c9090;
+  text-align: center;
+  font-size: 35px;
+}
+
 /*inicio tablas se parte*/
 .contenedor {
   width: 100%;
-  height: 1100px;
-  border: rgba(144, 196, 196, 0.7) solid 1px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -341,6 +356,7 @@ footer i {
 
 .class {
   border: rgba(166, 172, 172, 0.7) solid 1px;
+  text-align: center;
 }
 
 .class1 {
@@ -432,12 +448,8 @@ footer i {
   text-decoration: none;
   background-color: #5c9090;
   color: #fff;
-  padding: 10px 20px;
-  margin-top: 45px;
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: center;
+  padding: 10px 25px;
+  margin: 45px;
 }
 
 /*fin boton se parte*/
@@ -452,7 +464,7 @@ footer i {
 }
 
 .box {
-  border: rgba(92, 90, 90, 0.7) solid 1px;
+  border: rgba(166, 172, 172, 0.7) solid 1px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -493,6 +505,4 @@ footer i {
     grid-row: 1/2;
   }
 }
-/* fin contacto */
-
-/*# sourceMappingURL=estilos.css.map */
+/* fin contacto *//*# sourceMappingURL=estilos.css.map */
