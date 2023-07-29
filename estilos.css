@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Nunito&family=Playfair+Display:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
 * {
   margin: 0;
@@ -48,11 +48,11 @@ footer {
   width: 100%;
   height: 120px;
   background-color: #edcabd;
-  color: #fff;
+  color: #5c9090;
   text-align: center;
   padding: 15px;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Nunito", sans-serif;
   justify-content: center;
   margin-top: auto;
   /*position: fixed;
@@ -148,9 +148,9 @@ footer i {
   padding: 15px;
   margin-top: 20px;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
-  font-family: "Playfair Display", serif;
+  font-family: "Edu SA Beginner", cursive;
   text-align: left;
 }
 
@@ -170,14 +170,21 @@ strong {
   padding: 15px;
   margin-top: 20px;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
-  font-family: "Playfair Display", serif;
+  font-family: "Edu SA Beginner", cursive;
   text-align: left;
 }
 
 /* fin Equipo*/
 /* inicio Historias */
+.container {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #5c5a5a;
+}
+
 .section2 {
   height: 700px;
   width: 100%;
@@ -361,26 +368,35 @@ strong {
 .class {
   border: rgba(166, 172, 172, 0.7) solid 1px;
   text-align: center;
+  padding: 10px;
 }
 
 .class h3 {
   padding: 15px;
 }
 
-.class1 {
-  padding: 1%;
+.class1 h1 {
+  padding: 10px;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
 }
 
-.class2 {
+.class2 h2 {
   padding: 10px;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
 }
 
-.class3 {
+.class3 h3 {
   padding: 10px;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
 }
 
-.class4 {
+.class4 h5 {
   padding: 10px;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
 }
 
 @media only screen and (min-width: 300px) {
@@ -475,6 +491,18 @@ strong {
   border: rgba(166, 172, 172, 0.7) solid 1px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.box1 h2 {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.box2 h3 {
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 40px;
+  padding: 10px;
 }
 
 .box1 {
